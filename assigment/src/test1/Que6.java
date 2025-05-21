@@ -1,5 +1,5 @@
 package test1;
-interface hi{
+interface b1{
 	void I();
 }
 class act1{
@@ -12,7 +12,7 @@ class act2{
 		System.out.println("and");
 	}
 }
-class act3 extends act1 implements hi{
+ class Act3 extends act1 implements b1{
 	public void I() {
 		System.out.println("little");
 	}
@@ -28,8 +28,7 @@ class act4 extends act2{
 public class Que6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		act3 a=new act3();
+		Act3 a=new Act3();
 		act4 b=new act4();
 		a.sample();
 		a.I();

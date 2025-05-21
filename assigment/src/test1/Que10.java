@@ -25,18 +25,23 @@ class p0 implements c,ch1,chi2{
 		System.out.println("hlo");
 	}
 }
-class p1 extends p0 implements sam2{
+ class P1 extends p0 implements sam2{
 	public void cal3() {
 		System.out.println("these are");
 	}
 	public void sub() {
 		System.out.println("friends");
 	}
+	@Override
+	public void mul() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 public class Que10 {
 
 	public static void main(String[] args) {
-		p1 c= new p1();
+		P1 c= new P1();
 		c.cal();
 		c.cal1();
 		c.cal2();

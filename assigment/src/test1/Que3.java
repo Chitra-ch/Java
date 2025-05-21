@@ -1,5 +1,5 @@
 package test1;
-interface I1{
+interface c1{
 	void hlo();
 }
 class bittu {
@@ -7,7 +7,7 @@ class bittu {
 		System.out.println("hello");
 	}
 }
-class bittu1 extends bittu implements I1 {
+class bittu1 extends bittu implements c1 {
 	public void hlo2() {
 		System.out.println("Hi");
 	}
@@ -28,7 +28,7 @@ class bittu2 extends bittu1{
 public class Que3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 			bittu2 b2=new bittu2();
 			b2.hlo();
 			b2.hlo2();
